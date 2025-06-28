@@ -1,0 +1,7 @@
+requests
+pandas
+fastapi
+uvicorn[standard]
+pydantic[email]
+PyJWT
+bcrypt
