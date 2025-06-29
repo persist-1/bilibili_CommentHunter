@@ -85,17 +85,23 @@ bilibili_CH/
 ## 📦 安装依赖
 
 ### 后端依赖
-
-#### 方式一：使用requirements.txt（推荐）
+#### 1. 创建Python虚拟环境（可选）
+```bash
+python -m venv .venv
+```
+#### 2. 激活虚拟环境
+- Windows:
+  ```bash
+  .venv\Scripts\activate
+  ```
+- macOS/Linux:
+  ```bash
+  source .venv/bin/activate
+  ```
+#### 3. 安装Python依赖
 ```bash
 pip install -r requirements.txt
 ```
-
-#### 方式二：手动安装
-```bash
-pip install fastapi uvicorn[standard] requests pandas pydantic[email] PyJWT bcrypt
-```
-
 ### 前端依赖
 
 ```bash
